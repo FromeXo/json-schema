@@ -1,4 +1,6 @@
 {
+    "$schema": "https://raw.githubusercontent.com/FromeXo/json-schema/refs/heads/main/schema.json",
+    "$id": "https://raw.githubusercontent.com/FromeXo/json-schema/refs/heads/main/schema.json",
     "type": "object",
     "properties": {
         "vendor": {
