@@ -12,6 +12,10 @@
             "type": "string",
             "enum": ["mariadb", "postgresql"]
         },
+        "vendorVersion": {
+            "description": "Target specific version of the vendor",
+            "type": "string"
+        },
         "collate": {
             "description": "",
             "type": "string",
