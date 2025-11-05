@@ -3,11 +3,30 @@
     "$id": "https://raw.githubusercontent.com/FromeXo/json-schema/refs/heads/main/schema.json",
     "type": "object",
     "properties": {
+        "name": {
+            "description": "Database name, this will be the name of the database that will be created.",
+            "type": "string"
+        },
         "vendor": {
             "description": "Identifier for database vendor.",
             "type": "string",
             "enum": ["mariadb", "postgresql"]
+        },
+        "collate": {
+            "description": "",
+            "type": "string",
+            "default": "default"
+        },
+        "charset": {
+            "description": "",
+            "type": "string",
+            "default": "default"
+        },
+        "comment": {
+            "description": "",
+            "type": "string",
+            "default": "default"
         }
     },
-    "required": ["vendor"]
+    "required": ["name", "vendor"]
 }
