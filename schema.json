@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "properties": {
+        "vendor": {
+            "description": "Identifier for database vendor.",
+            "type": "string",
+            "enum": ["mariadb", "postgresql"]
+        }
+    },
+    "required": ["vendor"]
+}
